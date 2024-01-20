@@ -1,0 +1,155 @@
+.signupPage {
+    height: 100%;
+    display: flex;
+}
+
+.firstPart {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContainer {
+    align-self: start;
+}
+
+.logo {
+    width: 40%;
+    height: 40%;
+}
+
+.secondPart {
+    flex: 1;
+    background-color: var(--secondaryColor);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h4,
+.text h5 {
+    color: white;
+}
+
+.signUpText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signUpText h3 {
+    color: var(--fontColor);
+    margin: 0;
+}
+
+.signUpText h4 {
+    color: var(--fontColor);
+    margin-top: 0;
+}
+
+.signupContainer {
+    width: 60%;
+}
+
+.imageContainer {
+    border-radius: 2rem;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.signupContainer form {
+    width: 100%;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option1 {
+    border-radius: 6px;
+    background-color: #fff;
+    border: 2px solid #cbd2e0;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option1 input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.option1:hover {
+    border-color: var(--primaryColor);
+}
+
+.option1:focus {
+    border-color: var(--primaryColor);
+    box-shadow: 2px 2px 5px var(--primaryColor);
+    transition: 0.3s;
+}
+
+.passwordToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: var(--secondaryColor);
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.linkToLogin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstPart {
+    color: #a89494;
+}
+
+@media screen and (max-width: 610px) {
+  .secondPart{
+    display: none;
+  }
+}

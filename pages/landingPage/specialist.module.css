@@ -1,0 +1,128 @@
+.specialist{
+    display: flex;
+    height: 400px;
+    background-color: #5D62E0;
+    align-items: center;
+}
+
+.imageContainer{
+    flex: 1;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    background: url("/specialist.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.image{
+    width: 55%;
+    height: 95%;
+    border-radius: 50%;
+}
+
+.textContainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+    padding: 90px 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linkTextContainer{
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+
+.title, .mainText, .linkText{
+    color: #fff;
+}
+
+.title{
+    font-size: 32px;
+}
+
+.mainText{
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .image{
+        height: 90%;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .image{
+        height: 80%;
+        width: 70%;
+    }
+
+    .textContainer{
+        gap: 10%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .specialist{
+      flex-direction: column;
+      padding: 5px;
+    }
+
+    .textContainer{
+        padding: 0;
+    }
+
+    .mainText{
+      padding: 10px 40px;
+    }
+
+    .image{
+        height: 100%;
+        width: 45%;
+    }
+
+    .textContainer{
+        gap: 1%;
+    }
+
+    .mainText{
+        font-size: 15px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .linkText{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:490px) {
+    .image{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .image{
+        width: 85%;
+    }
+}

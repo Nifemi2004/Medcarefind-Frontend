@@ -1,0 +1,41 @@
+.hoursContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hours{
+   width: 40%;
+   border: 1px solid #ccc;
+   padding: 20px;
+   background-color: #fcfcfc;
+}
+
+.firstRow{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;  
+}
+
+.secondRow{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    text-align: justify;
+}

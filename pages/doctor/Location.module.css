@@ -1,0 +1,65 @@
+
+.mainText{
+    font-size: large;
+    font-weight: bold;
+}
+
+.subHospitalAndButton{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subHospitalAndNumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+.subHospital h6{
+  margin-bottom: 0;
+  color: var(--secondaryColor);
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.horizontalLine{
+    border-left: 1px solid #ccc;
+    height:20px;
+}
+
+.button{
+    color: var(--secondaryColor);
+    cursor: pointer;
+}
+
+.button:hover{
+    color: rgb(41, 41, 126);
+}
+
+.formButton {
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+.formButton:hover {
+    background-color: rgb(38, 38, 129);
+}
+
+@media screen and (max-width: 375px) {
+    .subHospitalAndNumber{
+        width: 100%;
+    }
+    .subHospitalAndButton{
+        padding: 0.5rem;
+    }
+}

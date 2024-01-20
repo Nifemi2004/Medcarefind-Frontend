@@ -1,0 +1,64 @@
+.youtubeVideo {
+  padding: 40px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoContainer {
+  width: 80%;
+  height: 350px;
+  display: flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.video {
+  flex: 1;
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40%;
+}
+
+.main {
+  color: #2f3399;
+}
+
+.discover {
+  color: #5D62E0;
+}
+
+@media screen and (max-width:900px) {
+   .text{
+    gap: 10%;
+   }
+}
+
+@media screen and (max-width:750px) {
+  .videoContainer{
+    flex-direction: column;
+  }
+
+  .discover{
+    display: none ;
+  }
+
+  .video{
+    flex: 10;
+  }
+
+  .text{
+    display: none;
+  }
+}

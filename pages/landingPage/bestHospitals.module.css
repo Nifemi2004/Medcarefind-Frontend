@@ -1,0 +1,89 @@
+.bestHospitals{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #5D62E0;
+}
+
+.hospitalContainer{
+    display: flex;
+    gap: 5vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.UniversityContainer{
+    display: flex;
+    gap: 7px;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainText, .name, .rating {
+    color: #fff;
+ }
+
+.name{
+   text-align: center;
+}
+
+ .hospitalImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+ }
+
+ .hospitalImage:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);/* Updated box shadow on hover */
+  }
+
+ .ratingContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+ }
+
+ .star{
+    color: #fff;
+ }
+
+ .seeMore{
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+@media screen and (max-width: 560px) {
+   .name{
+     font-size: 15px;
+   }
+
+   .hospitalContainer{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .hospitalImage{
+      width: 80%;
+      height: 80%;
+      text-align: center;
+   }
+
+   .imageContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}

@@ -1,0 +1,44 @@
+.breadcrump {
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrump p {
+    color: white;
+}
+
+.results {
+    background-color: var(--secondaryColor);
+    padding: 10px 8%;
+}
+
+.total h2 {
+    margin-bottom: 0;
+    color: white;
+}
+
+.hospitalItems {
+    padding: 5px 7%;
+    border: 1px solid rgb(226, 226, 234);
+    border-radius: 1rem;
+    margin: 2rem 5rem 0 5rem;
+}
+
+.hospitalItemsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.imageContainer {
+    width: 30%;
+}
+
+.detailContainer {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 5px;
+}
+

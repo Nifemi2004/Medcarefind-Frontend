@@ -1,0 +1,49 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+  .btnPrimary {
+    background-color: var(--primaryColor);
+    text-decoration: none;
+  }
+  
+  .btnSecondary {
+    background-color: white;
+    color: var(--primaryColor);
+  }
+  
+  .btnOutlined {
+    border-radius: 24px;
+    background-color: transparent;
+    border: solid 0.5px var(--primaryColor);
+    color: var(--primaryColor);
+    font-size: 20px;
+  }
+  
+  .btnOutlined:hover {
+    background-color: #fff;
+    color: var(--primaryColor);
+    transition: 0.3s;
+  }
+  
+  .btnPrimary:hover {
+    background-color: #fff;
+    color: var(--primaryColor);
+    transition: 0.3s;
+    /* border-radius: 24px; */
+    border: solid 0.5px var(--primaryColor);
+    color: var(--primaryColor);
+  }
+
+  
+  

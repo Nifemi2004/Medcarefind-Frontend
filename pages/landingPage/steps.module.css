@@ -1,0 +1,93 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  margin: 30px 0;
+}
+
+.stepsContainer {
+  display: flex;
+}
+
+.step {
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer{
+    width: 70%;
+}
+
+.image{
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: 30px;
+    color: #2E3290;
+}
+
+.text{
+    font-size: 25px;
+}
+
+.extra{
+  display: block;
+}
+
+@media screen and (max-width:1175px) {
+  .text{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:670px) { 
+  .extra{
+    display: none;
+ } 
+}
+
+@media screen and  (max-width:525px) {
+   .text{
+    font-size: 15px;
+   }
+
+   .title{
+    font-size: 20px;
+   }
+
+   .stepsContainer{
+    flex-direction: column;
+    align-items: center;
+   }  
+
+   .step{
+    width: 100%;
+    height: 100%;
+   }
+}
+
+@media screen and  (max-width:426px) {
+   .title{
+    font-size: 20px;
+   }
+   .stepsContainer{
+    flex-direction: column;
+    align-items: center;
+   }
+   .step{
+    width: 100%;
+    height: 100%;
+   }
+
+}

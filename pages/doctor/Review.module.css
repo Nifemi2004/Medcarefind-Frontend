@@ -1,0 +1,251 @@
+.wholeReviewWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.reviewAndNewReview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ratingTextContainer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 60px;
+    height: 40px;
+    font-weight: 500;
+    margin: 0 8px 0 0;
+    position: relative;
+    top: -25px;
+}
+
+.ratingStarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.stars {
+    font-size: small;
+}
+
+.star {
+    color: blue;
+}
+
+.individualStars h5 {
+    font-weight: 100;
+}
+
+.newReview {
+    width: 25rem;
+    border: 1px #6d4dbd solid;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newReview hr {
+    height: 2px;
+    color: blue;
+    width: 100%;
+}
+
+.starRatingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.specialistImage {
+    width: 10rem;
+    height: 10rem;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+.rule {
+    height: 2px;
+    color: blue;
+    width: 100%;
+}
+
+.fullReviewQuestionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.inputContainer input,
+.inputContainer textarea {
+    padding: 1rem;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.formButton {
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+.formButton:hover {
+    background-color: rgb(38, 38, 129);
+}
+
+/* Ratings css here */
+
+.reviewContainer {
+    border: 1px solid #ccc;
+    padding: 2rem;
+}
+
+.commentAndReply {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* .empty{
+    display: none;
+} */
+
+.fullRatingsContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.fullReplyContainer {
+    display: flex;
+    gap: 10px;
+    padding-left: 4rem;
+}
+
+.ratingWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.nameAndRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewed {
+    font-weight: 500;
+}
+
+
+.nameContainer h4,
+.nameContainer h5 {
+    margin: 0;
+}
+
+
+
+/* Leave a comment css here */
+
+.leaveAComment {
+    background-color: #faf7f7;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 2rem;
+}
+
+.reviewAndButton {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 541px) {
+    .reviewAndNewReview{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ratingTextContainer{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .nameAndRating{
+        flex-direction: column;
+    }
+    
+    .fullRatingsContainer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ratingStars{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reviewAndButton textarea{
+        width: 100%;
+    }
+
+    .reviewAndButton{
+        flex-direction: column;
+    }
+
+    .leaveAComment{
+        padding: 0.5rem;
+    }
+
+    .newReview {
+        padding: 0;
+        width: auto;
+    }
+}
+
+

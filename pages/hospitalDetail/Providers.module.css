@@ -1,0 +1,49 @@
+.image img{
+    width: 70px;
+    height: 80px;
+}
+
+.select{
+    margin-bottom: 10px;
+}
+
+.select select {
+    display: block;
+    width: 30%;
+    padding: 0.625rem 0.75rem 0.75rem 0.875rem;
+    padding-right: 0.75rem;
+    border: 1px solid #9fa1a2;
+    border-radius: 0.125rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #626366;
+}
+
+.specialist{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap ;
+}
+
+.specialistDetail{
+    display: flex;
+    gap: 3rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    padding: 10px;
+    width: fit-content;
+}
+
+.specialistDetail:hover{
+    box-shadow: 0 3px 5px rgba(0,0,0,.4);
+}
+
+.info h4, .info p {
+    margin-bottom: 0;
+}
+
+.stars{
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,153 @@
+.aboutmeWrapper{
+    padding-left: 2rem;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.iconContainer {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .iconContainer h5{
+    margin: 0;
+  }
+  
+  .toggleIcon {
+    font-size: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .visible .toggleIcon {
+    transform: rotate(180deg);
+  }
+  
+  .section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .visible {
+    max-height: 1000px;
+  }
+
+  .educationContainer{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: fit-content;
+  }
+
+  .educationContainer p, .educationContainer div, .educationContainer h6{
+    margin: 0;
+  }
+
+  .educationContainer p{
+    color: rgb(27, 27, 120);
+  }
+
+  .educationContainer div{
+    font-weight: bold;
+  }
+
+  .educationContainer h6{
+    font-weight: 100;
+  }
+
+  .languageContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .languageContainer h6{
+    margin: 0;
+    font-weight: 100;
+  }
+  
+  .languageList{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .questions{
+    padding: 1rem 3rem;
+    border: 1px solid #ccc;
+    width: 50%;
+  }
+
+  .questionContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .questionText{
+    font-weight: bold;
+    padding-bottom: 3rem;
+  }
+
+  .buttonContainer{
+    display: flex;
+    gap: 10px;
+  }
+
+  .button{
+    padding: 2px 17px;
+    border: 1px solid var(--primaryColor);
+    width: fit-content;
+    border-radius: 1rem;
+  }
+  
+  .button:hover{
+    border: none;
+    background-color: var(--primaryColor);
+    color: white;
+  }
+
+  .buttonRed{
+    padding: 2px 17px;
+    border: 1px solid red;
+    width: fit-content;
+    border-radius: 1rem;
+  }
+
+  .buttonRed:hover{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+
+  @media screen and (max-width:768px) {
+    .questions{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:426px) {
+    .questions{
+      width: 100%;
+      padding: 1rem 0.5rem;
+    }
+
+    .aboutmeWrapper{
+      padding-left: 0.1rem;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    .aboutmeWrapper{
+      padding: 0;
+    }
+  }
+
+

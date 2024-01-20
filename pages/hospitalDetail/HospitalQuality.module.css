@@ -1,0 +1,86 @@
+.bigScreen {
+    display: block;
+}
+
+.smallScreen {
+    display: none;
+}
+
+.smallTable{
+    margin: 1rem;
+}
+
+.smallRatingContainer{
+    margin: 1rem;
+}
+
+.toggleSection {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    width: 70%;
+}
+
+.wholeRatingsWrapper {
+    margin: 2rem;
+}
+
+.secondText {
+    margin-bottom: 20px;
+}
+
+.table {
+    padding: 1rem 0;
+}
+
+.firstTable {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstTable div {
+    width: 150px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.horizontalRule {
+    margin-top: 0;
+}
+
+.conditionRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conditionRating div {
+    width: 150px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.ratingContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.smallConditionRating {
+    flex-direction: column;
+    justify-content: left;
+}
+
+@media screen and (max-width: 890px) {
+    .toggleSection {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bigScreen {
+        display: none;
+    }
+
+    .smallScreen {
+        display: block;
+    }
+}

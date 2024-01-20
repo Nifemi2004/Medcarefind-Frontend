@@ -1,0 +1,15 @@
+.tabPanel {
+    display: none;
+    padding: 20px;
+  }
+  
+  .activePanel {
+    display: block;
+  }
+
+  @media screen and (max-width: 321px) {
+    .tabPanel{
+      padding: 20px 0;
+    }
+  }
+  

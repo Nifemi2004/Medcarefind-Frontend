@@ -1,0 +1,26 @@
+/* ToggleSection.module.css */
+.iconContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.toggleButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .visible {
+    max-height: 1000px; /* Adjust as needed */
+  }
+  

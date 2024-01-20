@@ -1,0 +1,140 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 10px;
+  padding: 40px 90px;
+  background-color: #2E3290;
+  color: #fff;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 15%;
+}
+
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: auto;
+}
+
+.list li {
+  width: 160px;
+  list-style: none;
+}
+
+.logo {
+  width: 65px;
+  height: 45px;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.logoAndIcon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon {
+  color: #fff;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.centrifugeText {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .list li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .firstSection {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contactsContainer {
+    padding: 5% 30%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .list li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .footer {
+    padding: 40px 10px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .footer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstSection{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .listContainer {
+    flex-wrap: wrap;
+    gap: 30%;
+    justify-content: center;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .listContainer {
+    flex-direction: column;
+  }
+
+  .centrifugeText{
+    font-size: 14px;
+  }
+}

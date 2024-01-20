@@ -1,0 +1,22 @@
+import { Menu } from 'primereact/menu';
+import React from 'react';
+import { menuItems } from './doctorMenuItem';
+
+const doctorManagement = () => {
+    return (
+        <div className="col-12 md:col-12" style={{ padding: 20 }}>
+            <div className="grid p-fluid column">
+                    <div className="col-12 sm:col-6 md:col-6 lg:col-4 xl:col-4">
+                        <h5 style={{ paddingLeft: 10 }}>Doctor Management</h5>
+                        <Menu className="w-full" model={menuItems().user} />
+                    </div>
+                    <div className="col-12 sm:col-6 md:col-6 lg:col-4 xl:col-4">
+                        <h5 style={{ paddingLeft: 10 }}>Verification</h5>
+                        <Menu className="w-full" model={menuItems().approve} />
+                    </div>
+            </div>
+        </div>
+    );
+};
+
+export default doctorManagement;

@@ -1,0 +1,60 @@
+
+
+.breadcrump {
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrump p {
+    color: white;
+}
+
+.results {
+    background-color: var(--secondaryColor);
+    padding: 10px 8%;
+}
+
+.total h1 {
+    color: white;
+}
+
+.settingsItemWrapper{
+    margin: 3rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.settingsItemContainer{
+    display: flex;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    gap: 10px;
+}
+
+.settingsItemContainer:hover{
+    color: rgb(0, 0, 255);
+}
+
+.settingsItemContainer:hover h4{
+    color: blue;
+}
+
+.iconContainer{
+    background-color: #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 30px;
+}
+
+
+

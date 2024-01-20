@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  box-shadow: 0 0.3rem 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.headerItems {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.image {
+  width: 65px;
+  height: 45px;
+}
+
+.navLink {
+  height: 250%;
+  color: black;
+}
+
+
+
+.dropdown a {
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.headerItems .dropdown .navLink:hover + .megaBox {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3sec ease;
+}
+
+.megaBox:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.megaBox {
+  position: absolute;
+  top: 65px;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.content .row {
+  width: calc(25%-30px);
+  line-height: 40px;
+}
+
+.content .row:nth-child(1),
+.content .row:nth-child(2) {
+  border-left: 0px;
+}
+
+.content .row header {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content .row .megaLinks {
+  border-left: 1px solid rgba(47, 27, 27, 0.09);
+}
+
+.row .megaLinks li {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.row .megaLinks li:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.row header hr{
+    height: 5px;
+    background-color: var(--primaryColor);
+    border-radius: 25px;
+}
+
+.megaLinks li {
+  /* padding: 0 20px; */
+  color: black;
+  font-size: 17px;
+  display: block;
+}
+
+.megaBox .content {
+  background: #fff;
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.login {
+  text-align: center;
+}
+
+.sidebar {
+  display: none;
+}
+.seeMore{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginAndMessage{
+  display: flex;
+  gap: 20px;
+}
+
+.icon{
+  font-size: 25px;
+}
+
+.sidebarItem{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebarItem h6{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .headerItems {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+  }
+}

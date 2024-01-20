@@ -1,0 +1,53 @@
+.results{
+    background-color: var(--secondaryColor);
+    margin: 10px 0;
+    padding: 10px 8%;
+}
+
+.total h2{
+  margin-bottom: 0;
+  color: white;
+}
+
+.filter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.breadcrump{
+    display: flex;
+    gap: 10px;
+}
+
+
+.breadcrump p{
+    color: white;
+}
+
+.filtersContainer{
+    height: 1.9rem;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    border: 1px solid var(--primaryColor);
+    cursor: pointer;
+}
+
+.filtersContainer:hover{
+    background-color: rgb(167, 167, 207);
+}
+
+@media (min-width: 768px) {
+    .filtersContainer {
+      -moz-column-gap: .75em;
+      column-gap: .75em;
+      font-size: .875rem;
+      height: 2.25rem;
+    }
+  }

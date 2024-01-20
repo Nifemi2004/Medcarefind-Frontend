@@ -1,0 +1,72 @@
+.text {
+    text-align: justify;
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experienceBox {
+    position: relative;
+}
+
+.experienceList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.beforeCircle {
+    background-color: rgba(32, 192, 243, 0.2);
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #20c0f3;
+}
+
+.experienceList::before {
+    background: #ddd;
+    bottom: 0;
+    content: '';
+    left: 8px;
+    position: absolute;
+    top: 8px;
+    width: 2px;
+}
+
+.experienceList li {
+    position: relative;
+}
+
+.experienceUser {
+    background: #fff;
+    height: 10px;
+    left: 4px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 4px;
+    width: 10px;
+}
+
+.experienceContent {
+    margin: 0 0 20px 40px;
+    padding: 0;
+    position: relative;
+}
+
+.timelineContent {
+    color: #757575;
+}
+
+.expYear {
+    color: #0071dc;
+    margin-bottom: 2px;
+}
+
+.expTitle {
+    font-size: 16px;
+}

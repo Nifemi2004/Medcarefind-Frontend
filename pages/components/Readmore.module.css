@@ -1,0 +1,14 @@
+/* ReadMore.js styles */
+.readmore div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+.readmore button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: blue;
+  }
+  

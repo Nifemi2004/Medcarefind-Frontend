@@ -1,0 +1,68 @@
+.locationContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.locationDetails {
+    flex: 1;
+}
+
+.locationInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.imageRouter {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.imageRouter img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.locationInfo h4 {
+    margin-bottom: 0;
+}
+
+.address {
+    color: #757575;
+}
+
+.directionLink {
+    color: #20c0f3;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.timeAndDay {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.days h5 {
+    font-weight: bold;
+    color: #272b41;
+}
+
+.time p {
+    margin-bottom: 0;
+}

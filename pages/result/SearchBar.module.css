@@ -1,0 +1,77 @@
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    background-color: white;
+    width: 50%;
+    height: 10%;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.buttonlg{
+    display: none;
+}
+
+.locationInput {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    flex: 1;    
+}
+
+.middleLine{
+  border: gray 2px solid;
+  height: 3rem;
+  font-size: 30px;
+  color: grey;
+}
+
+.locationInput::placeholder {
+    font-size: 15px;
+}
+
+.specialtyInput {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    flex: 2;
+    background-color: transparent;
+}
+
+.specialtyInput::placeholder {
+    font-size: 15px;
+}
+
+.searchBarButton{
+    padding: 12px 15px;
+    background-color: var(--secondaryColor);
+    color: white;
+    border-radius: 1rem;
+
+}
+
+.searchBarButton:hover{
+    background-color: rgb(28, 28, 103);
+}
+
+@media screen and (max-width: 750px) {
+    .searchBar{
+        display: none;
+    }
+}
